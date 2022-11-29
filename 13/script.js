@@ -17,7 +17,7 @@ cardSuits = ["clubs", "spades", "diamonds", "hearts"];
 numbers = [2, 3, 4, 5, 6, 7, 8, 9, 10];
 cards = [];
 
-
+//добавляю карты с цифрами
 for(i = 0; i < numbers.length; i++) {
     for(k = 0; k < cardSuits.length; k++) {
         cards.push(`
@@ -31,6 +31,7 @@ for(i = 0; i < numbers.length; i++) {
 jaQueKiCards = ["J", "Q", "K"];
 jackQueenKing = ["jack", "queen", "king"];
 
+//добавляю карты с вальтом, дамой и королём
 for(l = 0; l < jaQueKiCards.length; l++) {
     for(k = 0; k < cardSuits.length; k++) {
         cards.push(`
@@ -42,6 +43,7 @@ for(l = 0; l < jaQueKiCards.length; l++) {
     }
 }
 
+//добвляю карты с тузами
 for(k = 0; k < cardSuits.length; k++) {
     cards.push(`
     <div class="cards">

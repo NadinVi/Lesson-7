@@ -31,13 +31,13 @@ for(i = 0; i < numbers.length; i++) {
 jaQueKiCards = ["J", "Q", "K"];
 jackQueenKing = ["jack", "queen", "king"];
 
-for(i = 0; i < jaQueKiCards.length; i++) {
+for(l = 0; l < jaQueKiCards.length; l++) {
     for(k = 0; k < cardSuits.length; k++) {
         cards.push(`
     <div class="cards">
-        <div class="card_img">${jaQueKiCards[i]} <img src="images/suits/${cardSuits[k]}.svg" alt="card number and suit"></div>
-        <img class="jack_queen_king" src="images/images/${jackQueenKing[i]}.svg" alt="card person and suit">
-       <div class="card_img">${jaQueKiCards[i]} <img src="images/suits/${cardSuits[k]}.svg" alt="card number and suit"></div>
+        <div class="card_img">${jaQueKiCards[l]} <img src="images/suits/${cardSuits[k]}.svg" alt="card number and suit"></div>
+        <img class="jack_queen_king" src="images/images/${jackQueenKing[l]}.svg" alt="card person and suit">
+       <div class="card_img">${jaQueKiCards[l]} <img src="images/suits/${cardSuits[k]}.svg" alt="card number and suit"></div>
     </div>`)
     }
 }

@@ -42,4 +42,18 @@ for(l = 0; l < jaQueKiCards.length; l++) {
     }
 }
 
+for(k = 0; k < cardSuits.length; k++) {
+    cards.push(`
+    <div class="cards">
+        <div class="card_img">
+            <p class="text">T</p>
+                <img src="images/suits/${cardSuits[k]}.svg" alt="card number and suit">
+        </div>
+        <img class="jack_queen_king" src="images/suits/${cardSuits[k]}.svg" alt="card person and suit">
+       <div class="card_img">
+            <p class="text">T</p>
+                <img src="images/suits/${cardSuits[k]}.svg" alt="card number and suit">
+        </div>
+    </div>`)
+}
 document.write(`<div class="cards_field">${cards.join("")}</div>`);

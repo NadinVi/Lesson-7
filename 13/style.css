@@ -3,7 +3,7 @@
     font-family: "NerkoOne-Regular";
     src : url(Nerko_One/NerkoOne-Regular.ttf);
     color: #353c4d;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 700;
   }
 
@@ -35,6 +35,7 @@
 .card_img {
     display: flex;
     align-items: center;
+    font-family: "NerkoOne-Regular";
 }
 
 .card_img:last-of-type {
@@ -48,4 +49,8 @@
 
 .jack_queen_king {
     height: 50px; 
+}
+
+.text {
+    margin: 0px;
 }

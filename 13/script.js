@@ -36,9 +36,9 @@ for(l = 0; l < jaQueKiCards.length; l++) {
     for(k = 0; k < cardSuits.length; k++) {
         cards.push(`
     <div class="cards">
-        <div class="card_img">${jaQueKiCards[l]} <img src="images/suits/${cardSuits[k]}.svg" alt="card number and suit"></div>
+        <div class="card_img">${jaQueKiCards[l]} <img src="images/suits/${cardSuits[k]}.svg" alt="card person and suit"></div>
         <img class="jack_queen_king" src="images/images/${jackQueenKing[l]}.svg" alt="card person and suit">
-       <div class="card_img">${jaQueKiCards[l]} <img src="images/suits/${cardSuits[k]}.svg" alt="card number and suit"></div>
+       <div class="card_img">${jaQueKiCards[l]} <img src="images/suits/${cardSuits[k]}.svg" alt="card person and suit"></div>
     </div>`)
     }
 }
@@ -49,12 +49,12 @@ for(k = 0; k < cardSuits.length; k++) {
     <div class="cards">
         <div class="card_img">
             <p class="text">T</p>
-                <img src="images/suits/${cardSuits[k]}.svg" alt="card number and suit">
+                <img src="images/suits/${cardSuits[k]}.svg" alt="card ace and suit">
         </div>
-        <img class="jack_queen_king" src="images/suits/${cardSuits[k]}.svg" alt="card person and suit">
+        <img class="jack_queen_king" src="images/suits/${cardSuits[k]}.svg" alt="card ace and suit">
        <div class="card_img">
             <p class="text">T</p>
-                <img src="images/suits/${cardSuits[k]}.svg" alt="card number and suit">
+                <img src="images/suits/${cardSuits[k]}.svg" alt="card ace and suit">
         </div>
     </div>`)
 }
